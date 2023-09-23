@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<material name="default_mat">
+    <shader name="default_shader"/>
+    <properties>
+        <property name="diffuse" type="vec3">0.0, 0.0, 0.0</property>
+        <property name="specular" type="vec3">1.0, 2.0, 3.0</property>
+        <property name="ambient" type="vec3">0.0, 0.0, 0.0</property>
+        <property name="shininess" type="float">32.0</property>
+    </properties>
+</material>

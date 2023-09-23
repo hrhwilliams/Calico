@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program name="default_program" version="410 core">
+    <shaders>
+        <shader type="vertex" version="410 core">shaders/default.vert</shader>
+        <shader type="fragment" version="410 core">shaders/default.frag</shader>
+    </shaders>
+    <layout>
+        <location attrib="0" type="vec3"/>
+        <location attrib="1" type="vec3"/>
+    </layout>
+    <uniform-buffers>
+        <buffer>Globals</buffer>
+    </uniform-buffers>
+    <uniforms>
+        <uniform type="mat4">model</uniform>
+        <uniform type="float">scale</uniform>
+    </uniforms>
+</program>
